@@ -1,0 +1,47 @@
+
+.bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  @media (min-aspect-ratio : 16/9){
+    .bg-video{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-aspect-ratio : 16/9){
+    .bg-video{
+      width: auto;
+      height: 100%;
+    }
+  }
+
+
+aside {
+    
+    text-align: center;
+    top:50%;
+    left: 0;
+    position: fixed;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#link-aside {
+    text-decoration: none;
+    display: grid;
+    color: white;
+    text-align: left;
+}
+
+.Section {
+  color: white;
+  margin-top : 15%;
+  margin-left: 27%;
+}
